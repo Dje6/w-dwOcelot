@@ -33,7 +33,6 @@ if (!empty($_POST['submit'])) {
     echo 'HEY BIENVENUE CHEZ LES ROUGES';
   }
 }
-echo "string";
 ?>
 
 
