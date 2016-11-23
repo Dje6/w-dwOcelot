@@ -50,7 +50,7 @@ if (!empty($_POST['submit'])) {
 
     <div class="container-fluid">
       <div class="row">
-        <h1 class="titrePage">JESSY JTM</h1>
+        <h1 class="titrePage">JESSY JTM PLUS QUE TOUT</h1>
       </div>
     </div>
 
