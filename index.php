@@ -8,6 +8,7 @@ $error = array();
 if (!empty($_POST['submit'])) {
   $name = trim(strip_tags($_POST['name']));
   $prenom = trim(strip_tags($_POST['prenom']));
+  $password = trim(strip_tags($_POST['password']));
 
   if (!empty($name)) {
     if (strlen($name) < 3) {
@@ -27,6 +28,12 @@ if (!empty($_POST['submit'])) {
     }
   } else {
     $error['prenom'] = 'Veuillez indiquer un prénom';
+  }
+
+  if (!empty($password)) {
+
+  } else {
+    $error['password'] = 'Veuillez renseigner un password';
   }
 
   if (count($error) == 0) {
