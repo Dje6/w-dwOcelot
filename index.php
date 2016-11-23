@@ -73,8 +73,6 @@ echo "string";
       </div>
     </div>
 
-    <p>J'aime bouffer de la teub !</p>
-
 
 
   </body>
