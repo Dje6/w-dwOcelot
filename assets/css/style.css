@@ -1,0 +1,18 @@
+body {
+  background-image: url('../img/urss.jpg');
+  background-size: cover;
+}
+
+/*style formulaire*/
+.titrePage {
+  text-align: center;
+  color: azure;
+}
+.formJessyJTM {
+  padding: .5em;
+  font-size: 2em;
+  text-align: center;
+  border: 3px solid black;
+  margin-left: 25%;
+  margin-right: 25%;
+}
