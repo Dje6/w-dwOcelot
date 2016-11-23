@@ -75,7 +75,7 @@ if (!empty($_POST['submit'])) {
           <input type="text" name="prenom" value=""><br>
 
           <label for="password">Mot de passe : </label><br>
-          <span class="alert"></span>
+          <span class="alert"><?php if(!empty($error['password'])) {echo $error['password']; } ?></span>
           <input type="password" name="password" value=""><br><br>
 
           <input type="submit" name="submit" value="JE ME SOUMETS A VOTRE REGIME !">
