@@ -16,3 +16,8 @@ body {
   margin-left: 25%;
   margin-right: 25%;
 }
+.alert {
+  background-color: rgba(215, 229, 229, 0.9);
+  color: crimson;
+  font-weight: bolder;
+}
