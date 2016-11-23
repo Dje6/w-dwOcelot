@@ -33,7 +33,7 @@ if (!empty($_POST['submit'])) {
     echo 'HEY BIENVENUE CHEZ LES ROUGES';
   }
 }
-
+echo "string";
 ?>
 
 
@@ -73,7 +73,7 @@ if (!empty($_POST['submit'])) {
       </div>
     </div>
 
-
+    
 
 
 
